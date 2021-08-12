@@ -1,0 +1,51 @@
+[
+    {
+        "model": "movieapi.genre",
+        "pk": 1,
+        "fields": {
+            "label": "Unknown"
+        }
+    },
+    {
+        "model": "movieapi.genre",
+        "pk": 2,
+        "fields": {
+            "label": "Rom-Com"
+        }
+    },
+    {
+        "model": "movieapi.genre",
+        "pk": 3,
+        "fields": {
+            "label": "Horror"
+        }
+    },
+    {
+        "model": "movieapi.genre",
+        "pk": 4,
+        "fields": {
+            "label": "Thriller"
+        }
+    },
+    {
+        "model": "movieapi.genre",
+        "pk": 5,
+        "fields": {
+            "label": "Drama"
+        }
+    },
+    {
+        "model": "movieapi.genre",
+        "pk": 6,
+        "fields": {
+            "label": "Action"
+        }
+    },
+    {
+        "model": "movieapi.genre",
+        "pk": 7,
+        "fields": {
+            "label": "Foreign Film"
+        }
+    }
+]

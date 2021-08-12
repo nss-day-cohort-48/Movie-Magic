@@ -1,0 +1,15 @@
+[
+    {
+        "model": "movieapi.movie",
+        "pk": 1,
+        "fields": {
+            "title": "Lord Of The Rings",
+            "duration": 125,
+            "genre": 1,
+            "director": 3,
+            "actors": [
+                6, 7, 8, 9, 10, 11
+            ]
+        }
+    }
+]

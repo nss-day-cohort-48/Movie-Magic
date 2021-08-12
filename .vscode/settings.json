@@ -1,0 +1,17 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--django-settings-module=<folder name>.settings"
+    ],
+    "python.pythonPath": "/Users/monicakay/.local/share/virtualenvs/movie-server-F1Dqjs7W/bin/python",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Movie Server",
+            "database": "./db.sqlite3"
+        }
+    ]
+}

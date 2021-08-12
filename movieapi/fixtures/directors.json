@@ -1,0 +1,42 @@
+[
+    {
+        "model": "movieapi.director",
+        "pk": 1,
+        "fields": {
+            "first_name": "Quinton",
+            "last_name": "Terrentino"
+        }
+    },
+    {
+        "model": "movieapi.director",
+        "pk": 2,
+        "fields": {
+            "first_name": "Steve",
+            "last_name": "Buschemi"
+        }
+    },
+    {
+        "model": "movieapi.director",
+        "pk": 3,
+        "fields": {
+            "first_name": "Jordan",
+            "last_name": "Peele"
+        }
+    },
+    {
+        "model": "movieapi.director",
+        "pk": 4,
+        "fields": {
+            "first_name": "Tommy",
+            "last_name": "Wisoueie"
+        }
+    },
+    {
+        "model": "movieapi.director",
+        "pk": 5,
+        "fields": {
+            "first_name": "Chloe",
+            "last_name": "Zhao"
+        }
+    }
+]
