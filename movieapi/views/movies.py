@@ -5,7 +5,7 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
 from movieapi.models import Movie, Genre, Director
-
+from django.db.models.functions import Lower
 
 class MovieView(ViewSet):
     """Movie Server movies"""
@@ -86,7 +86,7 @@ class MovieView(ViewSet):
         Returns:
             Response -- JSON serialized list of movies
         """
-        movies = Movie.objects.all()
+        movies = Movie.objects.order_by(Lower('title'))
 
         # Note the additional `many=True` argument to the
         # serializer. It's needed when you are serializing
